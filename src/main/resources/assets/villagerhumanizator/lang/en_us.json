@@ -1,0 +1,13 @@
+{
+  "itemGroup.villagerhumanizator": "Example Mod Tab",
+  "block.villagerhumanizator.example_block": "Example Block",
+  "item.villagerhumanizator.example_item": "Example Item",
+
+  "villagerhumanizator.configuration.title": "Villager Humanizator Configs",
+  "villagerhumanizator.configuration.section.villagerhumanizator.common.toml": "Villager Humanizator Configs",
+  "villagerhumanizator.configuration.section.villagerhumanizator.common.toml.title": "Villager Humanizator Configs",
+  "villagerhumanizator.configuration.items": "Item List",
+  "villagerhumanizator.configuration.logDirtBlock": "Log Dirt Block",
+  "villagerhumanizator.configuration.magicNumberIntroduction": "Magic Number Text",
+  "villagerhumanizator.configuration.magicNumber": "Magic Number"
+}

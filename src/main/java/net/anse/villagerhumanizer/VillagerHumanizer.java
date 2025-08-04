@@ -22,16 +22,12 @@ public class VillagerHumanizer {
     public VillagerHumanizer(IEventBus modEventBus, ModContainer modContainer) {
         LOGGER.info("Initializing VillagerHumanizer mod");
 
-        // Solo en cliente: registrar renderers
         if (Dist.CLIENT.isClient()) {
             modEventBus.addListener(VillagerRendererReplacer::onRegisterRenderers);
         }
 
-        // Eventos del servidor o comunes
         NeoForge.EVENT_BUS.register(this);
 
-        // Si más adelante necesitas configuración:
-        // modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     @SubscribeEvent
